@@ -1,0 +1,14 @@
+{
+  "name": "mimijo",
+  "version": "1.0.0",
+  "description": "website publicitario",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Cesar",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

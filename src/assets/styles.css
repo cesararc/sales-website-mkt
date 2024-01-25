@@ -1,0 +1,86 @@
+*{
+    
+    font-family: 'VT323', monospace;
+}
+nav{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 9%;
+    margin-top: 80vh;
+
+}
+
+.contenedor-pagina{
+    scroll-snap-type: y mandatory!important;
+    overflow-y: scroll!important;
+    height: 100vh!important;
+}
+.menu{
+    display: none;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    text-align: center;
+}
+.one{
+    background-color: rgb(242, 247, 247);
+}
+
+.two{
+    background-color: brown;
+}
+.three{
+    background-color: aqua;
+    font-size: 2rem;
+}
+.four{
+    background-color: bisque;
+}
+
+.menuboton{
+    position:fixed;
+    left: 80%;
+    top: 90%;
+}
+
+.shiny-text {
+    background: linear-gradient(45deg, #00ffcc, #ffcc00);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.4);
+  }
+  @keyframes wavy {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(7px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .curly-effect span{
+    display: inline-block;
+    animation: wavy 1.5s infinite;
+    margin-right: -5px;
+    margin-bottom: 2px;
+    animation-delay: calc(var(--i) * 0.1s);
+  }
+  
+  .titulomimi{
+    font-family: "Oooh Baby", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }

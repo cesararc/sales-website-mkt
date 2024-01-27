@@ -9,7 +9,7 @@ nav{
     justify-content: center;
     width: 100%;
     height: 9%;
-    margin-top: 80vh;
+    margin-top: 88vh;
 
 }
 
@@ -18,9 +18,7 @@ nav{
     overflow-y: scroll!important;
     height: 100vh!important;
 }
-.menu{
-    display: none;
-}
+
 section{
     height: 100vh;
     display: flex;
@@ -38,7 +36,7 @@ h1{
 }
 
 .two{
-    background-color: brown;
+    background-color: #E4FF98;
 }
 .three{
     background-color: aqua;
@@ -83,4 +81,32 @@ h1{
     font-family: "Oooh Baby", cursive;
   font-weight: 400;
   font-style: normal;
+  }
+
+  .brutalist-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+  }
+
+  .brutalist-list-item {
+    border: 2px solid #fff;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .brutalist-list-item:hover {
+    background-color: #555;
+  }
+
+  @media screen and (max-height: 500px) {
+    .titulomimi {
+      display: none;
+    }
+    .navbar {
+      display: none;
+    }
+    
   }

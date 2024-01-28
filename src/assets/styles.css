@@ -39,7 +39,7 @@ h1{
     background-color: #E4FF98;
 }
 .three{
-    background-color: aqua;
+    background-color: #00ffff;
     font-size: 2rem;
 }
 .four{
@@ -100,6 +100,97 @@ h1{
   .brutalist-list-item:hover {
     background-color: #555;
   }
+
+  .perk1{
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+
+  .perk2{
+    font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+  
+  .wrapper{
+    box-sizing: content-box;
+    background-color: #E4FF98;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    
+    z-index: 100;
+    
+}
+.words{
+    overflow: hidden;
+    box-sizing: content-box;
+    font-size: 24px;
+    height: 100%;
+    width: 100%;
+}
+.word{
+    display: block;
+    box-sizing: content-box;
+    height: 100%;
+    
+    color: #0e6ffc;
+    animation: spin_words 10s infinite;
+    margin-top: 1%;
+    
+}
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
+  
+.boton{
+  background-color: #00d8d8;
+  
+}
+  
+
+
+
+
 
   @media screen and (max-height: 500px) {
     .titulomimi {

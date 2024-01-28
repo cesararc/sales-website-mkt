@@ -12,18 +12,3 @@
 //     }
 // });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const elementoADesaparecer = document.getElementById('titulomMi');
-    const seccionEspecifica = document.getElementById('cp2');
-  
-    const observer = new IntersectionObserver(function(entries) {
-      // Verifica si la sección específica está en el viewport
-      if (entries[0].isIntersecting) {
-        elementoADesaparecer.style.display = 'none';
-      } else {
-        elementoADesaparecer.style.display = 'block';
-      }
-    });
-  
-    observer.observe(seccionEspecifica);
-  });

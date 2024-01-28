@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Kablammo&family=Nabla&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="../atropos.min.css">
     
@@ -35,8 +35,11 @@
        
       </header>
     <div class="contenedor-pagina">
-    <section id="cp1" class="one text-3xl">
-      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl fixed top-0 mt-10">MiMijo Vendedor Artificial</h2>
+    <section id="cp1" class="one text-3xl lg:relative">
+      
+      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl fixed top-0 mt-10 md:hidden">MiMijo Vendedor Artificial</h2>
+      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl absolute top-0 mt-5 hidden sm:block">MiMijo Vendedor Artificial</h2>
+      
 
       <div class="atropos my-atropos">
         <!-- scale container (required) -->
@@ -78,10 +81,14 @@
                                 No pierdas ni una venta, estamos reinventando el comercio electronico tal y como lo conoces descubre como puedes formar parte de la revolucion.
                              </p>
                              <div class="flex items-center justify-center">
-                              <strong class="text-center">Descubre Como?</strong>
+                              <a href="#cp2" class="animate-bounce"><strong class="text-center underline">Descubre Como?</strong></a>
                             </div>
                           </div>
                        </article>
+                       
+                        
+
+                      
                     
                  </div>
                 
@@ -89,29 +96,68 @@
           </div>
         </div>
       </div>
-        
+    
     </section>
-    <section id="cp2" class="two flex items-center justify-center">
-      <div class="">
-      <ul class="list-none bg-gray-800 p-4 w-full h-1/2 border-black justify-center">
-         <li class="mb-2 text-white">Elemento 1</li>
-         <li class="mb-2 text-white">Elemento 2</li>
-         <li class="mb-2 text-white">Elemento 3</li>
-         <!-- Agrega más elementos según sea necesario -->
-     </ul>
+    <section id="cp2" class="two flex items-center justify-center lg:flex-row">
+      
      
-      <h1>
-                  .+s$$$s+.            .+s$$$s+.
-               ;*d$P*"$$$T$b  ,+**+,  d$P*"$$$T$b*
-               ::$; +:$$$:$$;*      *:$; +:$$$:$$;
-                 T$b._$$$d$P          T$b._$$$d$P
-                  `*T$$$P*'            `*T$$$P*'  
-                 </h1>
+       
+      <div class="md:flex items-center justify-center flex-row-reverse">
+         <div>
+         <p class="text-center sm:text-center md:text-right lg:text-justify p-4">En Digiallpa, hemos creado una solución innovadora al dotar inteligencia artificial con las herramientas de un vendedor digital y dar vida a Mimijo. desde carrito de compras hasta pasarela de pagos sin complicaciones directamente a través de WhatsApp. </p>
+
+         <div class="wrapper flex">
+            
+            <div class="words">
+                <h1 class="flex perk1 word  ">Una Tienda en linea que tus clientes amaran</h1>
+                <h1 class="flex perk2 word ">Comprar nunca fue tan facil</h1>
+                <h1 class="flex perk3 word ">0 sueldos,<br> 0 seguros,<br> 0 problemas</h1>
+                <h1 class="flex word ">🚀 ¡Bienvenido a la revolución de las compras en línea! 🛍️</h1>
+                <h1 class="flex perk1 word ">Una Tienda en linea que tus clientes amaran</h1>
+            </div>
+        </div>
+      </div>
+         
+          <div class=" w-full aspect-w-16 aspect-h-9 flex items-center justify-center lg:w-full">
+            <video class="bg-video w-3/5 sm:w-3/5  border-black border-2 p-2 " controls>
+              <source src="/src/assets/img/IMG_3347.MOV" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+   
       </div>
     </section>
     <section id="cp3" class="three">
      
-              <h1>WE BUILD YOUR BUSINESS</h1>
+              
+              <div class="max-w-md mx-auto rounded-lg shadow-lg mt-1 dark:bg-gray-700 dark:shadow-blue-100 border-black border-t-2 border-r-2 border-l-2 p-5 m-5">
+               <div class="px-6 py-4">
+                  <!--<h1>WE BUILD YOUR BUSINESS</h1>-->
+                 <div class="flex flex-col w-61">
+                  
+                   <h2 class="font-bold text-xl dark:text-gray-100">Membresia Inicial un solo pago de:</h2>
+                   <div class="border-2 border-blue-500 text"></div>
+                 </div>
+                 
+                 <div class="text-gray-500 dark:text-gray-200">
+                  <p class="line-through text-lg text-red-600">$10000</p><p>$4000</p> 
+                   <p class="text-lg">Configuracion y personalizacion en base a su giro de negocio.</p>
+                   
+                 </div>
+               </div>
+             
+               <div class="bg-gray-100 px-6 py-3 rounded-t-lg dark:bg-blue-100">
+                 <h2 class="font-bold text-2xl line-through text-red-600">$600/mo</h2>
+                 <h2 class="font-bold text-6xl mb-2">$400/mo</h2>
+                 <ol class="text-lg">
+                  <li>- Soporte Tecnico</li>
+                  <li>- $100 en creditos</li>
+                  <li>- Pasado los credito, la factura es en base a consumo</li>
+                </ol>
+                 <p class="text-gray-600 dark:text-gray-600">Accede Ahora</p>
+                 <a href="#cp4" class="boton px-4 py-2 mt-3 rounded font-semibold text-white hover:dark:bg-gray-700 animate-bounce">Suscribete Ahora</a>
+               </div>
+             </div>
                 
             
     </section>
@@ -125,19 +171,19 @@
                   <p class="text-base mb-4">En el futuro podremos</p>
                </section>
                <div class="px-6 py-5 text-left h-full">
-                  <form action="">
+                  <form action="https://formsubmit.co/cesareyesc@outlook.com" method="POST">
                   <h1 class="text-[32px] mb-4">Agendemos una cita</h1>
                   <div class="flex flex-col space-y-6 mb-4">
                      <label for="email">Email
                      <input id ="email" class=
-                        "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#FFA6F6] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                        placeholder="tu@ejemplo.com"
+                        "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#A6FAFF] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                        placeholder="tu@ejemplo.com" type="email" name="email"
                         />
                      </label>
                      <label for="username">Nombre
                         <input id ="username" class=
-                           "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#FFA6F6] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                           placeholder="ej: Cesar Reyes"
+                           "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#A6FAFF] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                           placeholder="ej: Cesar Reyes" type="text" name="name"
                            />
                         </label>
                     
@@ -145,7 +191,7 @@
                    <div class="flex justify-evenly space-x-6">  
                      <button
                         class="h-12 border-black border-2 p-2.5 bg-[#A6FAFF] hover:bg-[#79F7FF] hover:shadow-[2px_2px_0px_rgba(0,0,0,1)] active:bg-[#00E1EF]"
-                        >
+                        type="submit">
                      Enviar
                      </button>
                   </form>

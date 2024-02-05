@@ -4,7 +4,7 @@
   "description": "website publicitario",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "node src/server.js"
   },
   "author": "Cesar",
   "license": "ISC",

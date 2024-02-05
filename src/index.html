@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Honk&family=Kablammo&family=Nabla&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="../atropos.min.css">
+    <link rel="stylesheet" href="./assets/atropos.min.css">
     
 
     <link rel="stylesheet" href="assets/styles.css">
@@ -37,8 +37,8 @@
     <div class="contenedor-pagina">
     <section id="cp1" class="one text-3xl lg:relative">
       
-      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl fixed top-0 mt-10 md:hidden">MiMijo Vendedor Artificial</h2>
-      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl absolute top-0 mt-5 hidden sm:block">MiMijo Vendedor Artificial</h2>
+      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl fixed top-0 mt-10 md:hidden desab">MiMijo Vendedor Artificial</h2>
+      <h2 id="titulomiMi" class="titulomimi text-4xl font-bold tracking-tight text-black sm:text-6xl absolute top-0 mt-5 hidden sm:block elerror">MiMijo Vededor Artificial</h2>
       
 
       <div class="atropos my-atropos">
@@ -48,12 +48,12 @@
           <div class="atropos-rotate">
             <!-- inner container (required) -->
             <div class="atropos-inner">
-                <div class="h-full w-80 border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white">
+                <div class="h-full w-80 border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white tarjeta">
                     
                        <article class="w-full h-full">
                           <section class="w-full h-1/2 border-black border-b-2 flex items-center justify-center">
                              <img 
-                                src="/src/assets/img/logo.png"
+                                src="assets/img/logo.png"
                                 alt="thumbnail"
                                 class="w-14 h-14 object-cover"
                                 />
@@ -106,7 +106,7 @@
          <div>
          <p class="text-center sm:text-center md:text-right lg:text-justify p-4">En Digiallpa, hemos creado una solución innovadora al dotar inteligencia artificial con las herramientas de un vendedor digital y dar vida a Mimijo. desde carrito de compras hasta pasarela de pagos sin complicaciones directamente a través de WhatsApp. </p>
 
-         <div class="wrapper flex">
+         <div class="wrapper flex contfold">
             
             <div class="words">
                 <h1 class="flex perk1 word  ">Una Tienda en linea que tus clientes amaran</h1>
@@ -120,7 +120,7 @@
          
           <div class=" w-full aspect-w-16 aspect-h-9 flex items-center justify-center lg:w-full">
             <video class="bg-video w-3/5 sm:w-3/5  border-black border-2 p-2 " controls>
-              <source src="/src/assets/img/IMG_3347.MOV" type="video/mp4">
+              <source src="assets/img/IMG_3347.MOV" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
@@ -130,7 +130,7 @@
     <section id="cp3" class="three">
      
               
-              <div class="max-w-md mx-auto rounded-lg shadow-lg mt-1 dark:bg-gray-700 dark:shadow-blue-100 border-black border-t-2 border-r-2 border-l-2 p-5 m-5">
+              <div class="max-w-md mx-auto rounded-lg shadow-lg mt-1 dark:bg-gray-700 dark:shadow-blue-100 border-black border-t-2 border-r-2 border-l-2 p-5 m-5 disk">
                <div class="px-6 py-4">
                   <!--<h1>WE BUILD YOUR BUSINESS</h1>-->
                  <div class="flex flex-col w-61">
@@ -148,14 +148,14 @@
              
                <div class="bg-gray-100 px-6 py-3 rounded-t-lg dark:bg-blue-100">
                  <h2 class="font-bold text-2xl line-through text-red-600">$600/mo</h2>
-                 <h2 class="font-bold text-6xl mb-2">$400/mo</h2>
+                 <h2 class="font-bold text-6xl mb-2 foldnum">$400/mo</h2>
                  <ol class="text-lg">
                   <li>- Soporte Tecnico</li>
                   <li>- $100 en creditos</li>
-                  <li>- Pasado los credito, la factura es en base a consumo</li>
+                  <li>- Pasado los credito, factura es en base a consumo</li>
                 </ol>
-                 <p class="text-gray-600 dark:text-gray-600">Accede Ahora</p>
-                 <a href="#cp4" class="boton px-4 py-2 mt-3 rounded font-semibold text-white hover:dark:bg-gray-700 animate-bounce">Suscribete Ahora</a>
+                 <p class="text-gray-600 dark:text-gray-600 gfold">Accede Ahora</p>
+                 <a href="#cp4" class="boton px-4 py-2 mt-3 rounded font-semibold text-white hover:dark:bg-gray-700 animate-bounce gfolddisk">Suscribete Ahora</a>
                </div>
              </div>
                 
@@ -171,29 +171,57 @@
                   <p class="text-base mb-4">En el futuro podremos</p>
                </section>
                <div class="px-6 py-5 text-left h-full">
-                  <form action="https://formsubmit.co/cesareyesc@outlook.com" method="POST">
+                  <form action="/procesar-formulario" method="POST" enctype="application/x-www-form-urlencoded" id="myForm">
                   <h1 class="text-[32px] mb-4">Agendemos una cita</h1>
                   <div class="flex flex-col space-y-6 mb-4">
-                     <label for="email">Email
-                     <input id ="email" class=
-                        "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#A6FAFF] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                        placeholder="tu@ejemplo.com" type="email" name="email"
-                        />
-                     </label>
+                     
                      <label for="username">Nombre
                         <input id ="username" class=
                            "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#A6FAFF] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
                            placeholder="ej: Cesar Reyes" type="text" name="name"
                            />
                         </label>
+
+                     <label for="phone">Telefono
+                           <input id ="phone" class=
+                              "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#A6FAFF] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                              placeholder="0995641042" type="phone" name="phone"
+                              />
+                     </label>
+                     
+                     <label for="email">Email
+                           <input id ="email" class=
+                              "w-full border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#A6FAFF] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                              placeholder="tu@ejemplo.com" type="email" name="email"
+                              />
+                        </label>
                     
                    </div>
                    <div class="flex justify-evenly space-x-6">  
                      <button
+                        id="submitButton"
                         class="h-12 border-black border-2 p-2.5 bg-[#A6FAFF] hover:bg-[#79F7FF] hover:shadow-[2px_2px_0px_rgba(0,0,0,1)] active:bg-[#00E1EF]"
                         type="submit">
                      Enviar
                      </button>
+                     <div id="successMessage" style="display: none; color: green; margin-left: 0;">
+                        ¡Formulario enviado con éxito!
+                    </div>
+                    
+                    <script>
+                     document.getElementById('myForm').addEventListener('submit', function (event) {
+                         
+                 
+                         const successMessage = document.getElementById('successMessage');
+                         const submitButton = document.getElementById('submitButton');
+                         // Realiza la lógica de envío del formulario aquí (puedes usar fetch o axios)
+                 
+                         // Muestra el mensaje de éxito y oculta el formulario
+                         successMessage.style.display = 'block';
+                         submitButton.style.display = 'none';
+                          // 'this' hace referencia al formulario actual
+                     });
+                 </script>
                   </form>
                   
                </div>
@@ -205,7 +233,7 @@
         
         
     
-      <script src="../atropos.min.js"></script>
+      <script src="./assets/atropos.min.js"></script>
     <script>
       const myAtropos = Atropos({
         el: '.my-atropos',

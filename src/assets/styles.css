@@ -201,3 +201,56 @@ h1{
     }
     
   }
+
+  @media screen and (min-width: 640px) and (max-width: 768px) {
+    .elerror {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+  .titulomimi {
+    font-size: 27px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .menu {
+    margin-bottom: -20%;
+  }
+  .menu a {
+    font-size: 14px;
+  }
+  .tarjeta {
+    width: 100%;
+  }
+  .titulomimi {
+    font-size: 27px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .words{
+    height: 88%;
+  }
+  .word{
+    font-size: 12px;
+    height: 88%;
+  }
+  .disk{
+    height: 95%;
+  }
+  .gfold{
+  font-size: 20px;
+  }
+  .gfolddisk{
+    font-size: 22px;
+  }
+  .contfold{
+    height: 80px;
+  }
+  .foldnum{
+    font-size: 40px;
+  }
+}

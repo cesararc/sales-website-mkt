@@ -33,7 +33,7 @@ app.post('/procesar-formulario', (req, res) => {
     // uploadProcessData(name, phone, email);
 
     // Envía una respuesta al cliente
-    
+    res.sendStatus(204);
 });
 
 
@@ -44,3 +44,8 @@ app.listen(PORT, () => {
 
 initializeFirebaseApp();
 
+
+
+
+
+//Tienda + AI + WhatsApp = ❤️

@@ -206,15 +206,16 @@ h1{
     
   }
 
-  @media screen and (min-width: 640px) and (max-width: 767px) {
+  @media screen and (min-width: 481px) and (max-width: 767px) {
     .elerror {
         display: none;
 
     }
     .elvideo{
-      width: 50%;
+      width: 38%;
     }
 }
+
 
 @media screen and (max-width: 360px) {
   .titulomimi {
@@ -263,7 +264,7 @@ h1{
   }
 }
 
-@media screen and (max-height: 500px){
+@media screen and (max-height: 574px){
   .contenedor-pagina{
     scroll-snap-type: unset!important;
     overflow-y: unset!important;
@@ -282,3 +283,4 @@ h1{
 }
 
 }
+

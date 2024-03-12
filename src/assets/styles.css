@@ -1,7 +1,11 @@
 *{
-    
+    box-sizing: border-box!important;
+    min-width: 0;
     font-family: 'VT323', monospace;
+    position: relative;
+    
 }
+
 nav{
     position: fixed;
     align-items: center;
@@ -14,9 +18,9 @@ nav{
 }
 
 .contenedor-pagina{
-    scroll-snap-type: y mandatory!important;
-    overflow-y: scroll!important;
-    height: 100vh!important;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 section{
@@ -202,9 +206,13 @@ h1{
     
   }
 
-  @media screen and (min-width: 640px) and (max-width: 768px) {
+  @media screen and (min-width: 640px) and (max-width: 767px) {
     .elerror {
         display: none;
+
+    }
+    .elvideo{
+      width: 50%;
     }
 }
 
@@ -253,4 +261,24 @@ h1{
   .foldnum{
     font-size: 40px;
   }
+}
+
+@media screen and (max-height: 500px){
+  .contenedor-pagina{
+    scroll-snap-type: unset!important;
+    overflow-y: unset!important;
+    height: auto!important;
+}
+.one{
+  height: auto;
+}
+.two{
+  height: auto;
+}.three{
+  height: auto;
+}
+.four{
+  height: auto;
+}
+
 }

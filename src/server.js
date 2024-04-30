@@ -22,12 +22,13 @@ app.get('/', (req, res) => {
 
 app.post('/procesar-formulario', (req, res) => {
     // Accede a los datos del formulario desde el cuerpo de la solicitud
-    const { name, phone, email } = req.body;
+    const { name, phone, email, message} = req.body;
     console.log(req);
-    uploadProcessData(name, phone, email);
+    uploadProcessData(name, phone, email, message);
     console.log('Nombre:', name);
     console.log('Teléfono:', phone);
     console.log('Email:', email);
+    console.log('Mensaje:', message);
 
     // Aquí puedes llamar a tu función y pasarle los datos del formulario
     // uploadProcessData(name, phone, email);

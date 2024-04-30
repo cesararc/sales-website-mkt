@@ -41,11 +41,12 @@ export const initializeFirebaseApp = () => {
       }
 };
 
-export const uploadProcessData = async (name, phone, mail) => {
+export const uploadProcessData = async (name, phone, mail, message) => {
     const dataToUpload = {
         name: name,
         phone: phone,
-        mail: mail
+        mail: mail,
+        message: message
     };
     try {
         const newDocumentRef = await addDoc(collection(firestoreDB, "leads"), dataToUpload);

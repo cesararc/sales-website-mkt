@@ -1,6 +1,7 @@
 import express from 'express';
 import { uploadProcessData } from "./fuego.js";
 import { initializeFirebaseApp } from "./fuego.js";
+import cors from 'cors';
 
 const app = express().use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
@@ -19,6 +20,17 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/src/index.html');
 });
 
+const whitelist = ['http://127.0.0.1:5500','http://localhost:8080','http://localhost:5432', 'https://api-rest-base-73uu8nxj9-cesars-projects-42670874.vercel.app', 'https://digiallpa.com', 'https://www.digiallpa.com'];
+const options = {
+  origin: (origin, callback) => {
+    if (whitelist.includes(origin) || !origin) { // si el origen esta en la lista blanca o no hay origen
+      callback(null, true);
+    } else {
+      callback(new Error('No permitido'));
+    }
+  }
+}
+app.use(cors(options));
 
 app.post('/procesar-formulario', (req, res) => {
     // Accede a los datos del formulario desde el cuerpo de la solicitud
